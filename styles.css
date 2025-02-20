@@ -83,10 +83,28 @@
   font-family: var(--common-font);
 }
 
-.blog-link {
-  color: var(--common-black);
+.blog {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 48px;
 }
 
+.blog-link {
+  color: var(--common-black);
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+@media (min-width: 768px) {
+  .blog-link {
+    gap: 24px;
+    grid-template-columns: 264px 1fr;
+  }
+  .blog {
+    gap: 36px;
+  }
+}
 .blog-title {
   color: var(--grey, #2c2c2c);
   font-family: var(--common-font);
