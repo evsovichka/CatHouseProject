@@ -11,7 +11,7 @@ CatHouse is a responsive web project created using CSS Grid to showcase modern l
 ## Installation
 
 1. Clone the repository:
-   git clone https://github.com/your_username/CstHouse.git
+   git clone https://github.com/evsovichka/CatHouseProject.git
 2. Open the `index.html` file in your browser.
 
 ## Usage
